@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body onload="reload()">
+    <div class="input_container">
+        <div class="title">
+            <h1>Note-List</h1>
+        </div>
+        <div class="container">
+            <div class="userInput">
+                <div class="div-input">
+                    <input type="text" placeholder="Wirte your Note" id="userInput">
+                </div>
+                <div class="div-button">
+                    <button onclick="saveNote()">SAVE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NOTE SECTION -->
+    <section>
+        <div class="note_container">
+            <div class="container">
+                <div class="note words">
+                    <p>ES IST EGAL, WIE LANGSAM DU VORAN KOMMST.
+                        <span class="not-2">
+                            Du überhost immer noch jeden, der gar nichts tut.
+                        </span>
+                    </p>
+                </div>
+                <div id="note_user">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
